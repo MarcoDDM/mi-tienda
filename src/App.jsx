@@ -14,14 +14,13 @@ function App() {
 			<main>
 			</main>
 			{/* esta section es de prueba, borrar al final */}
-			<section> 
+			<section className="Products"> 
+				<ProductCard />	
+				<ProductCard />	
 				<ProductCard />
-				<Test01 />
-				<Test02 />
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>hgfg</code> and save reeeload.
-				</p>
+				<ProductCard />	
+				<ProductCard />	
+				<ProductCard />				
 			</section>
 		</div>
 	);

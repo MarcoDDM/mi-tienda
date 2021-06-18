@@ -16,6 +16,7 @@ code {
 	box-sizing: border-box;
 }
 
-app {
-	width: 100vw;
+.Products {
+	display: flex;
+	justify-content: center;
 }
