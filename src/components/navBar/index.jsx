@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import SearchIcon from "@material-ui/icons/Search";
-import CartWidget from "../cardComponent"; //no se como rutear la carpetaaaaa
+import { CartWidget } from "../cartWidget";
 
 export const NavBar = () => {
 	return (

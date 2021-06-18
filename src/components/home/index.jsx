@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import ProductCard from "../components/cardComponent"; //ACA HAY ALGO MAL CON EL RUTEOOO
+import { ProductCard } from "../cartComponents";
 
 export const Home=()=> {
     return (
