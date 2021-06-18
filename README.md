@@ -15,5 +15,5 @@ const EcommerceConReact = {
 }
 ```
 
-<h2 align='center'>✨<a href="#"> VISIT ME </a>✨</h2>
+<h2 align='center'>✨<a href="#"> SOON </a>✨</h2>
 
