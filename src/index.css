@@ -16,7 +16,12 @@ code {
 	box-sizing: border-box;
 }
 
-.Products {
+section {
 	display: flex;
 	justify-content: center;
+}
+
+.productos {
+	display: flex;
+	flex-direction: row;
 }

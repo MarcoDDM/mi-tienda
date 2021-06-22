@@ -4,6 +4,7 @@ import {NavBar} from "./components/navBar";//Este es el navbar
 import {Test01} from "./components/utils"; //esta es una carpeta donde pueden ir cosas sueltas (ver bien el uso)
 import {Test02} from "./components/utils";
 import {ProductCard} from "./components/cardComponent"; 
+import {ItemListContainer} from "./components/itemListContainer/index";
 
 function App() {
 	return (
@@ -12,15 +13,14 @@ function App() {
 			<NavBar />
 			</header>
 			<main>
+				<ItemListContainer greetings="acá va a ir el banner del hot sale de amazon"/>
 			</main>
 			{/* esta section es de prueba, borrar al final */}
-			<section className="Products"> 
-				<ProductCard />	
-				<ProductCard />	
-				<ProductCard />
-				<ProductCard />	
-				<ProductCard />	
-				<ProductCard />				
+			<section > 
+				<div className="productos">
+					<ProductCard />	
+					<ProductCard />	
+				</div>	
 			</section>
 		</div>
 	);
