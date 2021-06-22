@@ -1,0 +1,12 @@
+.acumulador {
+	display: flex;
+}
+
+.acumulador__btn {
+	width: 25px;
+}
+
+.acumulador__input{
+    width:30px;
+    text-align: center;
+}
