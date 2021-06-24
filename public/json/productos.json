@@ -1,0 +1,30 @@
+[
+{
+        "id":1,
+        "title":"producto 01",
+        "description":"Lorem ipsum dolor sit",
+        "price":100,
+        "pictureURL":"https://picsum.photos/400"
+    },
+    {
+        "id":2,
+        "title":"producto 02",
+        "description":"Lorem ipsum dolor sit",
+        "price":200,
+        "pictureURL":"https://picsum.photos/400"
+    },
+    {
+        "id":3,
+        "title":"producto 03",
+        "description":"Lorem ipsum dolor sit",
+        "price":300,
+        "pictureURL":"https://picsum.photos/400"
+    },
+    {
+        "id":4,
+        "title":"producto 04",
+        "description":"Lorem ipsum dolor sit",
+        "price":400,
+        "pictureURL":"https://picsum.photos/400"
+    }
+]
