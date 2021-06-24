@@ -9,8 +9,8 @@ export const ItemListContainer=({greetings})=>{
     useEffect(async () =>{
         const response = await fetch("./json/productos.json")
         const json = await response.json()
-        console.log(json)
-    })
+        setProducts([json])
+    },[])
 
     return(
         <div>
