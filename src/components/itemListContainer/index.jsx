@@ -9,7 +9,7 @@ export const ItemListContainer=({greetings})=>{
     useEffect(async () =>{
         const response = await fetch("./json/productos.json")
         const json = await response.json()
-        setProducts([json])
+        setProducts(json)
     },[])
 
     return(
