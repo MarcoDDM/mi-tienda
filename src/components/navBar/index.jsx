@@ -1,43 +1,31 @@
 import React from "react";
 import "./style.css";
-import SearchIcon from "@material-ui/icons/Search";
-import { CartWidget } from "../cartWidget";
+import logo from "./logo.svg"
+import CartWidget from "./CartWidget";
 
-export const NavBar = () => {
+const NavBar = () => {
 	return (
-		<div className='header'>
-			<img
-				className='header__logo'
-				src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
-				alt='img'
-			/>
-
-			<div className='header__search'>
-				<input className='header__searchInput' type='text' />
-				<SearchIcon className='header__searchIcon' />
-			</div>
-
-			<div className='header__nav'>
-				<div className='header__option'>
-					<span className='header__optionLineOne'>Hello Guest</span>
-					<span className='header__optionLineTwo'>Sign In</span>
+		<>
+			<div className="NavBar__logoWidget">
+				<div className='NavBar__logoWidget--logo'>
+					<img src={logo} alt='logo' />
+					<p>pokeshop</p>
 				</div>
 
-				<div className='header__option'>
-					<span className='header__optionLineOne'>Returns</span>
-					<span className='header__optionLineTwo'> Orders</span>
-				</div>
-
-				<div className='header__option'>
-					<span className='header__optionLineOne'>Your</span>
-					<span className='header__optionLineTwo'>Prime</span>
-				</div>
-
-				<div className='header__optionBasket'>
+				<div className='NavBar__logoWidget--cartwidget'>
 					<CartWidget />
-					<span className='header__optionLineTwo header__basketCount'>0</span>
+					<p>0</p>
 				</div>
 			</div>
-		</div>
+
+			<ul className='NavBar__categorias'>
+				<li>tierra</li>
+				<li>agua</li>
+				<li>fuego</li>
+				<li>aire</li>
+			</ul>
+		</>
 	);
 };
+
+export default NavBar;
